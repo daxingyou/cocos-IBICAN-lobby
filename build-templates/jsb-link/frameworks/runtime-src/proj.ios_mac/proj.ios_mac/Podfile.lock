@@ -1,0 +1,34 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - libOpenInstallSDK (2.2.1.1)
+  - SSZipArchive (2.2.2)
+
+DEPENDENCIES:
+  - CocoaHTTPServer (~> 2.3)
+  - libOpenInstallSDK
+  - SSZipArchive
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - CocoaHTTPServer
+    - CocoaLumberjack
+    - libOpenInstallSDK
+    - SSZipArchive
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  libOpenInstallSDK: b2ceca6cd23c8497471b35917aed0ecb3c834ccc
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+
+PODFILE CHECKSUM: a0b9f7a5ab33f370d46154e999a77ab5882c82ba
+
+COCOAPODS: 1.6.1

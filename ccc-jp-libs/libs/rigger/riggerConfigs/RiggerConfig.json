@@ -1,0 +1,123 @@
+{
+	"applicationName": "Lobby",
+	"version":"0.0.7",
+	"projectType": "application",
+	"srcRoot": "./src/Script",
+	"libPathes": [],
+	"dtsPathes": [],
+	"outRoot": "./dist",
+	"binRoot": "./assets/libs",
+	"customServicesRoot": [],
+	"services": [
+		[
+			{
+				"fullName": "CCBasedConfigService",
+				"src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/CCBasedConfigService.git",
+				"version": "1.0.0"
+			}
+		],
+		[
+			{
+				"fullName": "rigger.service.AssetsService",
+				"src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.AssetsService.git",
+				"version": "1.0.2",
+				"plugins": [
+					{
+						"src": "git@git.jinpin.com:riggerPublish/plugins/ccPlugins.CCAssetsPlugin.git",
+						"fullName": "ccPlugins.CCAssetsPlugin",
+						"version": "1.0.4"
+					}
+				]
+			},
+			{
+				"fullName": "rigger.service.AssetsPackageService",
+				"src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.AssetsPackageService.git",
+				"version": "1.0.7",
+				"plugins": [],
+				"services":[
+					{
+						"fullName": "rigger.service.AssetsService"
+					}
+				]
+			},
+			{
+				"fullName": "rigger.service.NetworkService",
+				"src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.NetworkService.git",
+				"version": "1.0.9",
+				"plugins": [
+					{
+						"fullName": "ccPlugins.CCNetworkChannelPlugin",
+						"src": "git@git.jinpin.com:riggerPublish/plugins/ccPlugins.CCNetworkChannelPlugin.git",
+						"version": "1.0.5"
+					},
+					{
+						"fullName": "ProtocolCmdAssemblerPlugin",
+						"src": "git@git.jinpin.com:riggerPublish/plugins/ProtocolCmdAssemblerPlugin.git",
+						"version": "1.0.3"
+					},
+					{
+						"fullName": "rigger.service.ProtobufferEncoderPlugin",
+						"src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.ProtobufferEncoderPlugin.git",
+						"version": "1.0.0"
+					},
+					{
+						"fullName": "NetworkServiceSignalRoutingPlugin",
+						"src": "git@git.jinpin.com:riggerPublish/plugins/NetworkServiceSignalRoutingPlugin.git",
+						"version": "1.0.2"
+					}
+				],
+				"channels": [
+					{
+						"channelName": "lobby",
+						"channelType": 3,
+						"cacertPath": "resources/cacert.pem"
+					},
+					{
+						"channelName": "subGame",
+						"channelType": 3,
+						"cacertPath": "resources/cacert.pem"
+					}
+				]
+			},
+			{
+				"fullName": "rigger.service.HeartBeatService",
+				"src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.HeartBeatService.git",
+				"version": "1.0.3",
+				"duration": 10000,
+				"services": [
+					{
+						"fullName": "rigger.service.TimeService"
+					}
+				],
+				"plugins":[
+					{
+						"fullName":"HeartBeatProtocolPlugin"
+					}
+				]
+			},
+			{
+				"fullName": "rigger.service.TimeService",
+				"src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.TimeService.git",
+				"version": "1.0.2",
+				"plugins": [
+					{
+						"fullName": "ccPlugins.CCLocalTimePlugin"
+					},
+					{
+						"fullName": "ccPlugins.CCTimerPlugin"
+					}
+				]
+			}
+		],
+		[
+			{
+				"fullName": "MainLogicService",
+				"src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/MainLogicService.git",
+				"version": "1.0.4",
+				"entrance": "startArgs:entrance"
+			}
+		]
+	],
+	"packages": [],
+	"deps": []
+}

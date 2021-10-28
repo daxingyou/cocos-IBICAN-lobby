@@ -1,0 +1,13 @@
+{
+    "version": "0.0.173",
+    "itemId": "lobby",
+    "remoteRule": ["remoteUrl", "itemId", "/"],
+    "manifestDest": "assets/resources",
+    "apiLevel": "android-24",
+    "appABIs": [
+        "armeabi-v7a",
+        "arm64-v8a"
+    ],
+    "useDebugKeystore": true
+
+}

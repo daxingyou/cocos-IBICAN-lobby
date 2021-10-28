@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "5dc34a60-49c4-48fb-a07a-d058f455d30f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "qmtg_djyl": {
+      "ver": "1.0.4",
+      "uuid": "a049ce5a-3319-4dd4-9a15-a71463d61c53",
+      "rawTextureUuid": "5dc34a60-49c4-48fb-a07a-d058f455d30f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 106,
+      "height": 30,
+      "rawWidth": 106,
+      "rawHeight": 30,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

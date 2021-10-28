@@ -1,0 +1,9 @@
+stages:
+  - deploy
+
+pack:
+  stage: deploy
+  script:
+    - devops.py
+  tags:
+    - win10

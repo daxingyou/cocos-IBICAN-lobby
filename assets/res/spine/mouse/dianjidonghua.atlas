@@ -1,0 +1,55 @@
+
+dianjidonghua.png
+size: 317,315
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00001
+  rotate: false
+  xy: 253, 253
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: -1
+1_00002
+  rotate: true
+  xy: 219, 24
+  size: 77, 73
+  orig: 77, 73
+  offset: 0, 0
+  index: -1
+1_00003
+  rotate: false
+  xy: 128, 15
+  size: 89, 86
+  orig: 89, 86
+  offset: 0, 0
+  index: -1
+1_00004
+  rotate: false
+  xy: 138, 103
+  size: 101, 99
+  orig: 101, 99
+  offset: 0, 0
+  index: -1
+1_00005
+  rotate: false
+  xy: 138, 204
+  size: 113, 109
+  orig: 113, 109
+  offset: 0, 0
+  index: -1
+1_00006
+  rotate: false
+  xy: 2, 60
+  size: 124, 121
+  orig: 124, 121
+  offset: 0, 0
+  index: -1
+1_00007
+  rotate: false
+  xy: 2, 183
+  size: 134, 130
+  orig: 134, 130
+  offset: 0, 0
+  index: -1

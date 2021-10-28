@@ -1,0 +1,9 @@
+[submodule "ccc-builder"]
+	path = ccc-builder
+	url = git@git.jinpin.com:client/tools/ccc-builder.git
+[submodule "ccc-jp-libs"]
+	path = ccc-jp-libs
+	url = git@git.jinpin.com:client/ccc-jp-libs-pub.git
+[submodule "riggerIOC"]
+	path = riggerIOC
+	url = git@git.jinpin.com:client/riggerIOC.git

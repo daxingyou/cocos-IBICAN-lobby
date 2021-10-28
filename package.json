@@ -1,0 +1,38 @@
+{
+  "name": "jpbuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "colors": "^1.3.3",
+    "del": "^4.1.1",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^6.0.0",
+    "gulp-git": "^2.9.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "http-parser-js": "^0.5.1",
+    "merge-stream": "^2.0.0",
+    "minimist": "^1.2.0",
+    "protobufjs": "^6.8.8",
+    "require-dir": "^1.2.0",
+    "silly-datetime": "^0.1.2",
+    "through": "^2.3.8",
+    "typescript": "^3.5.2",
+    "upath": "^1.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.jinpin.com:client/chess/2431.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+{
+    // "remoteUrl":"http://ec2-103-4-10-67.ap-northeast-1.compute.amazonaws.com:9090/Public/items/",
+    "remoteUrl":"https://pf.569143.com/Public/items/",
+    "debug": false,
+    "sourceMaps": false
+}

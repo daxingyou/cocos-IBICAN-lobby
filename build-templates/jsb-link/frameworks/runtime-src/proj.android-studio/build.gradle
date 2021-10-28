@@ -1,0 +1,55 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+dependencies {
+    
+    // implement rootProject.ext.dependencies["weixin-sdk"]
+}
+def modules = getSubprojects()
+//def modules = getAllprojects()
+// def filter = ['libraryA', 'libraryB']
+project(':lobby') { p ->
+    p.afterEvaluate {
+        dependencies {
+            api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+        }
+
+        android {
+            buildTypes {
+                debug {
+                    if (project.hasProperty("RELEASE_STORE_FILE")) {
+                        signingConfig signingConfigs.release
+                    }
+                }
+            }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

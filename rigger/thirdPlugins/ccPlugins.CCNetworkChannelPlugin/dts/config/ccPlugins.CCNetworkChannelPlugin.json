@@ -1,0 +1,8 @@
+/**
+* WEBSOCKET(CC)网络频道插件
+*/
+{
+	// 插件的全称
+	"fullName": "ccPlugins.CCNetworkChannelPlugin",
+	"version":"1.0.4"
+}

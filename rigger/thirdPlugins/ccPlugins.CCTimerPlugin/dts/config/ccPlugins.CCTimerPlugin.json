@@ -1,0 +1,8 @@
+/**
+* ccPlugins.CCTimerPlugin
+*/
+{
+	// 插件的全称
+	"fullName": "ccPlugins.CCTimerPlugin",
+	"version":"1.0.1"
+}

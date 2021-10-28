@@ -1,0 +1,8 @@
+/**
+* ccLocalTimePlugin
+*/
+{
+	// 插件的全称
+	"fullName": "ccPlugins.CCLocalTimePlugin",
+	"version":"1.0.0"
+}
